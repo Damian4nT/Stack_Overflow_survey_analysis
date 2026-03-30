@@ -28,16 +28,16 @@ The goal is to simulate a real-world data analysis workflow, combining multiple 
 - Web scraping external datasets
   
 ### 🧹 Data Cleaning & Preprocessing:
-- Removed missing and non-informative values (e.g., "Prefer not to say")
-- Converted categorical variables into numerical formats (e.g., age ranges → numeric values)
+- Removed missing and non-informative values (e.g. "Prefer not to say")
+- Converted categorical variables into numerical formats (e.g. age ranges → numeric values)
 - Handled missing values using appropriate techniques (dropping or imputing)
 - Normalized selected variables for comparison
-- Split multi-response fields into individual rows (e.g., languages, databases)
+- Split multi-response fields into individual rows (e.g. languages, databases)
   
 ### 🔍 Exploratory Data Analysis (EDA):
 - Distribution analysis (compensation, age, experience)
 - Outlier detection using IQR method
-- Group-based aggregation (e.g., median salary by age group)
+- Group-based aggregation (e.g. median salary by age group)
 - Trend analysis across different demographics
 
 ### 📊 Data Visualization:
@@ -75,7 +75,7 @@ The goal is to simulate a real-world data analysis workflow, combining multiple 
 
 ### 📁 Project Structure:
 
-project/
+project
 
 - **[Data_collection](https://github.com/Damian4nT/Stack_Overflow_survey_analysis/tree/main/Data_collection)**
 - **[Data_Wrangling](https://github.com/Damian4nT/Stack_Overflow_survey_analysis/tree/main/Data_wrangling)**
@@ -89,4 +89,4 @@ https://survey.stackoverflow.co/ (year 2024)
 
 ### 💡 Future Improvements:
 - Build Power BI dashboard
-- Build predictive model (e.g., salary prediction)
+- Build predictive model (e.g. salary prediction)
